@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family:  Georgia,Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.topbar{
+  display: flex;
+  background-color:rgb(225, 182, 54);
+  position: fixed;
+  top:0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.navigation-R{
+  text-align: right;
+  float:right;
+}
+
+.navigation-R li {
+    display: inline;
+    float: left;
+    padding-left: 15px;
+  }
+
+  .navigation-R li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color:white;
+  }
+
+  .navigation-R  li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/236x/ee/b1/93/eeb19366eab1043154b8fcf440aee25c.jpg);
+  }
+
+  .navigation-R li a:hover {
+    background-color: rgb(2, 2, 2);
+  }
+
+  .navigation-R .active {
+    background-color: #04AA6D;
+  }
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.programmers {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  width: 300px;
+  height: 430px;
+}
+
+.about-top {
+  padding: 50px;
+  text-align: center;
+  background-repeat:repeat;
+    background-position: right;
+  background-attachment: fixed;
+  background-image: url(https://i.pinimg.com/236x/22/b2/4e/22b24e93418c78dde4de894b15b6ba94.jpg);
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+.position {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(225, 182, 54);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px;
+}
+button a{  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  }
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+    <nav class="topbar">
+        <div class="navigation-R">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Book Pages.html">Book Pages</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="login.html">Contact Us</a></li>
+          <li><a href="Register.html">Create Account</a></li>
+        </div>
+    </nav>
+
+<div class="about-top">
+  <h1>About Us </h1>
+  <p>We are a book reviewing website and we are here to help you to read fast, with fun anytime anywhere.
+  </p>  
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+  <div class="column">
+    <div class="programmers">
+      <center><img src="https://i.pinimg.com/236x/92/fa/14/92fa1446f961f8f2185750bbd920cca9.jpg" alt="Shyma Al-mahri" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Shyma Al-mahri</h2>
+        <p class="position">CSS Developer </p>
+        <p>“Clean code always looks like it was written by someone who cares.”</p>
+        <p>s137389@student.squ.edu.om</p>
+        <p><button class="button"  ><a href="mailto:s137389@student.squ.edu.om">Contact </a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="programmers">
+        <center><img src="https://i.pinimg.com/236x/92/fa/14/92fa1446f961f8f2185750bbd920cca9.jpg" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Khadija Habis</h2>
+        <p class="position">HTML Developer</p>
+        <p>“How you look at it is pretty much how you'll see it.”</p>
+        <p>s130056@student.squ.edu.om</p>
+        <p><button class="button"><a href="mailto:s130056@student.squ.edu.om">Contact </a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="programmers">
+        <center><img src="https://i.pinimg.com/236x/92/fa/14/92fa1446f961f8f2185750bbd920cca9.jpg" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Waad Alkiyumi</h2>
+        <p class="position">HTML Developer</p>
+        <p>“A room without books is like a body without a soul.”</p>
+        <p>s130261@student.squ.edu.om</p>
+        <p><button class="button"><a href="mailto:s130261@student.squ.edu.om">Contact </a></button></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

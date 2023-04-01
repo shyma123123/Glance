@@ -1,0 +1,77 @@
+.topbar{
+    display: flex;
+    background-color:rgb(225, 182, 54);
+    position: fixed;
+    top:0;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .nav-right{
+    text-align: right;
+    float:right;
+  }
+  
+  .nav-right li {
+      display: inline;
+      float: left;
+      padding-left: 15px;
+    }
+  
+    .nav-right li a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color:white;
+    }
+  
+    .nav-right  li ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f3e443;
+    }
+  
+    .nav-right li a:hover {
+      background-color: rgb(0, 0, 0);
+    }
+  
+    .nav-right .active {
+      background-color: #0d0d0d;
+    }
+
+    .part-1 img{
+        height:50pc;
+        width: 25pc;
+        padding: 100px;
+        margin: 10px;
+        background-attachment: fixed;
+        background-size: contain;
+        float: left;
+      }
+      .part-1 p{float: right;}
+
+    
+   .card{
+font-family: Century,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+font-size: 1pc;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width: 100%;
+padding: 10px;
+height:max-content;
+
+
+   }
+
+   .card h1,h2,h2,h4,h3{
+    font-size: 2pc;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+   }
+   .column {
+    
+    height: 55%;
+    margin-bottom: 1px;
+    padding: 2 0px;
+  }
+  .card dd,dt{margin: 10px;}

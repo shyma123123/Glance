@@ -1,0 +1,192 @@
+
+
+body {margin:0;
+  
+    font-family:  Georgia,sans-serif;}
+  
+    .topbar{
+      display: flex;
+      background-color:rgb(225, 182, 54);
+      position: fixed;
+      top:0;
+      width: 100%;
+      font-size: 20px;
+  }
+  
+  .navigate-R{
+      text-align: right;
+      float:right;
+  }
+  .part-1{
+      padding:40px;
+      background-image:url("https://i.pinimg.com/564x/2e/df/37/2edf376ce4991d488518e5f5505ff232.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:cover;
+      height:550px;
+      background-size: 100% 100%;
+  }
+  
+  
+  
+  h1{
+      font-size: 100px;
+      color: white;
+  }
+  .part-1 p{
+      font-size: 20px;
+      color: white;
+  }
+  
+  .part-2
+  {
+      padding: 35px;
+  }
+  
+  .gall div{
+      display: inline;
+  }
+  
+  .part-2  a{
+      text-decoration: none;
+  }
+  
+  .part-2 p{
+      color: black;
+      text-align: center;
+  }
+  
+  
+  
+  
+  img{
+      height: 300px;
+      width:250px;
+  }
+  
+  .mainbtn
+  {
+      display: block;
+      border-radius: 5px;
+      color:white;
+      background-color: rgb(225, 182, 54);
+      font-size:20px;
+      text-decoration: none;
+      width:fit-content;
+      height:fit-content;
+      padding:5px;
+  }
+  
+  .mainbtn a:hover{
+    color: #000;
+    cursor: pointer;
+  }
+  
+  li {
+      display: inline;
+      float: left;
+      padding-left: 15px;
+    }
+  
+    li a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color:white;
+    }
+  
+    li ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+  
+    li a:hover {
+      background-color: rgb(0,0,0);
+    }
+  
+    .active {
+      background-color: #000000;
+    }
+  
+  /* part-3 image gallery 2 */
+  
+    .part-3{
+        padding:35px;
+    }
+  
+    
+    .view {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+  }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      display: inline;
+  
+    }
+  
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+  
+    .container {
+      padding: 2px 16px;
+      align-items: center;
+    }
+  
+  
+    .part-4{
+      padding:35px;
+    }
+    
+   
+  
+  .part-5
+  {
+      background-color: rgb(224, 219, 219);
+      display: grid;
+  }
+  
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+  
+    
+    input[type=submit]:hover {
+      cursor: pointer;
+      background-color: #5b5757;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: rgba(8, 8, 8, 0.5);
+      padding: 10px;
+    }
+    
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+   
+  
+  
